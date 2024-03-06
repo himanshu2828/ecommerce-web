@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.nav-items{
+    list-style-type: none;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E3E6F3;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+.nav-items li{
+    padding: 20px;
+}
+.nav-items li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1a1a1a;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.nav-items li a:hover{
+  color: #6fb3b3;
+  text-decoration: underline #6fb3b3 2px;
+}
+#product-detail{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-img{
+    width: 460px;
+    padding-bottom: 4px;
+}
+.product-suggestion{
+    width: 112px;
+}
+#sizeChange{
+    width: 18%;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid #aca4a4;
+    border-radius: 3px;
+    font-family: roboto;
+    margin-bottom: 10px;
+}
+#sizeChange option{
+    font-family: Roboto;
+}
+.product-details-text-con{
+    padding: 60px;
+}
+#quantity{
+    width: 60px;
+    height: 40px;
+}
+.addToCart-btn{
+    background-color: #088178;
+    height: 40px;
+    width: 130px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+    font-family:"Josefin Sans", sans-serif;
+}
+.details-product{
+    min-width: 100px;
+    max-width: 600px;
+    font-family: Karla;
+}
+.product-details-text-con h5{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.product-details-text-con h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 900;
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+.product-details-text-con h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+#product{
+    padding: 60px;
+    margin-bottom: 50px;
+}
+.product-text-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#product h1{
+    font-family: Calibri, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+#product p{
+    font-family: Calibri, sans-serif;
+    font-size: 17px;
+    color: #66817f;
+}
+.product-card{
+    padding: 15px;
+    border: solid 1px #cce7d0;
+    border-radius: 30px;
+    width: 23%;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+    margin: 15px 0px;
+}
+.product-card:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.product-card img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 14px;
+}
+.product-name-cart-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-cart-logo{
+    background-color: #e8f6ea;
+    border-radius: 150px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    color: #088178;
+    border: 1px solid #cce7d0;
+}
+.start-color{
+    color: rgb(234, 200, 7);
+}
+.product-card p{
+    font-family: Calibri, sans-serif;
+    color: #738887;
+    margin-bottom: 0px;
+}
+.product-price{
+    font-family: Calibri, sans-serif;
+    color: #088178;
+    font-weight: bolder;
+}
+.product-card h5{
+    font-family: Calibri, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.product-item-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#newsLetter-section{
+    background-color: #041e04;
+    background-image: url("Images/banner/b14.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+#newsLetter-section h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+#newsLetter-section p{
+    color: #818ea0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.sign-up-button{
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #088178;
+    color: white;
+    font-weight: 600;
+    transition: 0.2s ease;
+
+}
+.sign-up-button:hover{
+    background-color: white;
+    color: #088178;
+    border-left: 1px solid #088178;
+}
+.input-emails{
+    height: 48px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: Calibri, sans-serif;
+    color: #738887;
+}
+.form{
+    display: flex;
+    width: 35%;
+}
+#footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer-section h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#footer-section strong{
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+}
+.footer-img{
+    margin-bottom: 30px;
+}
+#footer-section p{
+    color: #66817f;
+    font-weight: 600;
+}
+#footer-section a{
+    text-decoration: none;
+}
+#footer-section p:hover,
+#footer-section a:hover{
+    color: red;
+    text-decoration: 2px solid #088178;
+}
+.brands-section{
+    margin-top: 30px;
+}
+.brands-section h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.brand-con{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.app-play-con{
+    margin-bottom: 10px;
+}
+#footer-section .app-play-con img{
+    border: 1px solid #088178;
+    border-radius: 8px;
+}
+.footer-copyright{
+    margin-top: 20px;
+}
+.footer-copyright p{
+    color: #66817f;
+}
+.brand-con i:hover{
+    color: #088178;
+}
+
+#close{
+    display: none;
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+
+@media (max-width:799px) {
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    .active{
+        right: 0px;
+    }
+    #close{
+        display: flex;
+        color: #041e04;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+    }
+    #lg-none{
+        display: none;
+    }
+    #Hero {
+        padding: 35px;
+        height: 70vh;
+        background-position: top 30% right 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .feature-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #product {
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    .product-item-card-container {
+        justify-content: center;
+    }
+    .product-card {
+        margin: 15px;
+        width: 40%;
+    }
+    #banner {
+        height: 20vh;   
+    }
+    #banner h2 {
+        font-size: 30px;
+    }
+    #banner button {
+        padding: 10px;
+        width: 130px;
+        font-size: 15px;
+    }
+    .banner-box {
+        height: 30vh;
+        min-width: 100%;
+    }
+    .bd-md-1 {
+        height: 30vh;
+        width: 30%;
+    }
+    .b-md-2 {
+        background-image: url("Images/banner/b4.jpg");
+        height: 30vh;
+        width: 30%;
+    }
+    .b-md-3 {
+        background-image: url("Images/banner/b18.jpg");
+        height: 30vh;
+        width: 30%;
+    }
+    .banner-md-box {
+        padding: 10px;
+    }
+    #medium-banner-section h1 {
+        font-size: 22px;
+    }
+    #medium-banner-section h6 {
+        font-size: 17px;
+        font-family: roboto;
+    }
+    .form {
+        width: 70%;
+    }
+    #footer-section {
+        flex-wrap: wrap;
+    }
+    .brands-section {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .product-imgs-con{
+        width: 50%;
+    }
+    .product-img {
+        width: 100%;
+        padding-bottom: 4px;
+    }
+    .product-details-text-con{
+        width: 50%;
+    }
+    .small-imgs-con{
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-suggestion {
+        width: 96%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .product-details-text-con {
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 477px) {
+    #header {
+        padding: 12px 12px;
+    }
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 90px;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    #Hero {
+        padding: 20px;
+        height: 70vh;
+        background-position: 65%;
+        margin-bottom: 20px;
+    }
+    .h5-ele {
+        font-size: 16px;
+    }
+    .h3-ele {
+        font-size: 28px;
+    }
+    .h3-elem {
+        font-size: 28px;
+    }
+    .h6-ele {
+        font-size: 14px;
+    }
+    .button {
+        padding: 10px 60px 12px 55px;
+        font-size: 14px;
+    }
+    .feature-container {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .feature-card {
+        width: 43%;
+    }
+    #product h1 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+    #product p {
+        font-size: 15px;
+    }
+    .product-text-container {
+        margin-bottom: 25px;
+    }
+    .product-card {
+        width: 100%;
+    }
+    #product {
+        margin-bottom: 20px;
+    }
+    #banner {
+        height: 40vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #banner h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .banner-box {
+        height: 30vh;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #small-banner-section {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+    #medium-banner-section {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+    .bd-md-1 {
+        width:100%;
+        height: 30vh;
+    }
+    .b-md-2 {
+        width:100%;
+        height: 30vh;
+    }
+    .b-md-3 {
+        width:100%;
+        height: 30vh;
+    }
+    .banner-md-box {
+        margin-bottom: 30px;
+    }
+    #medium-banner-section h1 {
+        font-weight: 1000;
+        font-size: 34px;
+        font-family: Calibri;
+    }
+    #medium-banner-section h6 {
+        font-weight: 1000;
+        font-size: 16px;
+        font-family: Calibri;
+    }
+    .input-emails {
+        width: 100%;
+    }
+    #newsLetter-section {
+        padding: 30px;
+    }
+    .sign-up-button {
+        width: 140px;
+    }
+    .footer-copyright p {
+        color: #66817f;
+        font-size: 12px;
+    }
+    #product-detail {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-imgs-con{
+        width: 100%;
+    }
+    .product-details-text-con {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+}
